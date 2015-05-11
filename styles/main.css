@@ -936,7 +936,7 @@ width: 900px; }
 #what-we-offer h2 { padding-top: 0px; }
 
 
-@media all and (max-width: 850px) {
+@media all and (max-width: 950px) {
     header h1#logo {
         display: block;
         float: none;
@@ -960,7 +960,6 @@ width: 900px; }
     }
 
 
-.nav > li > a { padding: 0; }
 
     header.smaller {
         height: 58px;
@@ -1107,6 +1106,13 @@ background-color: #00F; }
 }
 
 }
+
+@media all and (max-width: 900px) {
+ 
+ .nav > li > a { padding: 0; }
+
+
+ }
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),

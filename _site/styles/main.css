@@ -914,7 +914,7 @@ display: inline-block;
 width: 100%;
 padding-top: 1em;
 background: none repeat scroll 0% 0% rgba(71, 31, 16, 0.09);
-padding-left: 50px;
+padding-left: 30px;
 }
 
 div.col-lg-4:nth-child(1) > h2:nth-child(1)  { display: inline-block; }
@@ -936,7 +936,7 @@ width: 900px; }
 #what-we-offer h2 { padding-top: 0px; }
 
 
-@media all and (max-width: 990px) {
+@media all and (max-width: 950px) {
     header h1#logo {
         display: block;
         float: none;
@@ -944,7 +944,7 @@ width: 900px; }
         line-height: 100px;
         text-align: center;
         background-size: 530px;
-        margin-top: 2em;
+       
     }
     header nav {
         display: block;
@@ -960,7 +960,6 @@ width: 900px; }
     }
 
 
-.nav > li > a { font-size: 1.85em; }
 
     header.smaller {
         height: 58px;
@@ -1107,6 +1106,13 @@ background-color: #00F; }
 }
 
 }
+
+@media all and (max-width: 900px) {
+ 
+ .nav > li > a { padding: 0; }
+
+
+ }
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),

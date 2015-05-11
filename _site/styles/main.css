@@ -878,7 +878,7 @@ header h1#logo {
     transition: all 0.1989s;
     background-image: url("../imgs/the-foundry-logo-shadow.png");
     height: 420px;
-background-size: 60px auto;
+background-size: 600px auto;
 background-repeat: no-repeat;
 width: 100%;
 }
@@ -1100,7 +1100,7 @@ margin-left: -49px;
 .nav > li { position: relative; display: inline-block; }
 
 .big-header { display: block; height: 100vh;  min-height: 630px; background: url("/imgs/.jpg")  no-repeat scroll center center / cover #56565A;  overflow: hidden; }
-.about-content { z-index: -1;  padding:1.85em; margin-bottom: 4em; background: #fff; margin-top: -96px; }
+.about-content { z-index: -1;  padding:1.85em; margin-bottom: 4em; background: #fff; margin-top: 55px; }
 .about-logo { display: inline-block; }
 .about-us-text { display: none; }
 

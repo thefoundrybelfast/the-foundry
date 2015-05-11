@@ -17,14 +17,15 @@
 
 <script>try{Typekit.load();}catch(e){}</script>
 
+{% assign url = '{{image}}' %}
 
 <script type="text/javascript">
     var userFeed = new Instafeed({
         get: 'user',
         userId: 1976838980 ,
         accessToken: '1976838980.467ede5.e8a1fdce2169423fa221d6ce4058713c',
-        limit:'8',
-        template: '<a href="{{link}}"><img src="{{image}}" /></a>',
+        limit:'4',
+        template: '<a href="{{link}}"><img src="{{url}}" alt=""/></a>',
         resolution: 'standard_resolution'
     });
     userFeed.run();

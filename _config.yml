@@ -1,4 +1,6 @@
 name: The Foundry - Coworking Belfast
 markdown: redcarpet
 highlighter: pygments # or rouge or null
+baseurl:
+url:http://thefoundrybelfast.github.io/the-foundry/
 exclude: ['node_modules', 'gulpfile.js', 'package.json', 'src', 'Gemfile', 'Gemfile.lock']

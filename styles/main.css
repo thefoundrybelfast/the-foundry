@@ -166,13 +166,14 @@ background: none repeat scroll 0% 0% rgba(71, 31, 16, 0.09);
 {
   color: #fff;
   float: none;
-  font-size: 1.2em;
+  font-size: 2em;
   font-weight: 400;
   border-radius: 4px;
   text-shadow: 2px 2px 16px #000000;
   border-radius: 0;
   background: #221F1F;
   text-shadow: none;
+  line-height: 2em;
 }
 
 .nav > li > a:focus 
@@ -476,15 +477,16 @@ overflow: hidden; z-index: -1;
 position: relative;
 }
 
-.top-bg
-{ 
-height: 60%;
-background: url("../imgs/top.jpg") no-repeat scroll center center / 100% auto transparent;
-overflow: hidden;
-z-index: 1;
-position: relative;
-margin-top: 60px;
+.top-bg {
+    height: 157px;
+    background: url("../imgs/top.jpg") no-repeat scroll center center / 100% auto transparent;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    margin-top: 17px;
 }
+
+
 .big-header-contact 
 { 
   min-height: 420px; 
@@ -845,14 +847,15 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
-background: none repeat scroll 0% 0% #241F1D;
-height: 58px; 
+    background: none repeat scroll 0% 0% #241F1D;
+    height: 58px; 
     -webkit-transition: height 0.1989s;
     -moz-transition: height 0.1989s;
     -ms-transition: height 0.1989s;
     -o-transition: height 0.1989s;
     transition: height 0.1989s;
 }
+
 header h1#logo {
     display: inline-block;
   margin-top: 155px;
@@ -869,9 +872,9 @@ header h1#logo {
     transition: all 0.1989s;
     background-image: url("../imgs/the-foundry-logo-shadow.png");
     height: 420px;
-background-size: 600px auto;
-background-repeat: no-repeat;
-width: 100%;
+    background-size: 600px auto;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 header nav {
     display: inline-block;
@@ -891,21 +894,21 @@ header.smaller {
     height: 58px;
 }
 header.smaller h1#logo {
-line-height: 75px;
-font-size: 30px;
-background-image: url("../imgs/the-foundry-logo-small.png");
-height: 40px;
-background-size: 120px auto;
-background-repeat: no-repeat;
-margin: 13px 0px 5px 7px;
-width: 140px;
-z-index: 9999;
+    line-height: 75px;
+    font-size: 30px;
+    background-image: url("../imgs/the-foundry-logo-small.png");
+    height: 40px;
+    background-size: 120px auto;
+    background-repeat: no-repeat;
+    margin: 13px 0px 5px 7px;
+    width: 140px;
+    z-index: 9999;
 }
 header.smaller nav a {
 
-
-
 }
+
+ .nav > li > a { font-size: 1.2em; }
 
 #instafeed a { display: inline-block; list-style: outside none none; width: 200px; margin: 30px; box-shadow: 5px 5px 5px #303030; }
 
@@ -954,6 +957,18 @@ width: 900px; }
 .mentoring p {  }
 
 #what-we-offer h2 { padding-top: 0px; }
+
+.top-bg
+{ 
+height: 60%;
+background: url("../imgs/top.jpg") no-repeat scroll center center / 100% auto transparent;
+overflow: hidden;
+z-index: 1;
+position: relative;
+margin-top: 60px;
+}
+
+}
 
 
 @media all and (max-width: 950px) {

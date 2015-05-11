@@ -960,7 +960,7 @@ width: 900px; }
     }
 
 
-.nav > li > a {  }
+.nav > li > a { padding: 0; }
 
     header.smaller {
         height: 58px;

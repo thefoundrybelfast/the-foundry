@@ -855,7 +855,7 @@ height: 58px;
 }
 header h1#logo {
     display: inline-block;
-    margin-top: 85px;
+  margin-top: 155px;
     line-height: 150px;
     float: left;
     font-family: "Oswald", sans-serif;
@@ -869,7 +869,7 @@ header h1#logo {
     transition: all 0.1989s;
     background-image: url("../imgs/the-foundry-logo-shadow.png");
     height: 420px;
-background-size: 820px;
+background-size: 680px auto;
 background-repeat: no-repeat;
 width: 100%;
 }

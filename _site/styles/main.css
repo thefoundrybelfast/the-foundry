@@ -414,7 +414,7 @@ div.col-lg-4:nth-child(1) > h2:nth-child(1) {  display: none; }
 { 
 
   background: linear-gradient(90deg, #00D2FF 10%, #3A7BD5 90%) repeat scroll 0% 0% transparent; 
-margin-top: -26px;
+margin-top: -98px;
 padding-top: 75px;
 margin-bottom: 0;
 }
@@ -1100,7 +1100,7 @@ margin-left: -49px;
 .nav > li { position: relative; display: inline-block; }
 
 .big-header { display: block; height: 100vh;  min-height: 630px; background: url("/imgs/.jpg")  no-repeat scroll center center / cover #56565A;  overflow: hidden; }
-.about-content { z-index: -1;  padding:1.85em; margin-bottom: 4em; background: #fff; margin-top: 120px; }
+.about-content { z-index: -1;  padding:1.85em; margin-bottom: 4em; background: #fff; margin-top: -96px; }
 .about-logo { display: inline-block; }
 .about-us-text { display: none; }
 

@@ -476,6 +476,13 @@ overflow: hidden; z-index: -1;
 position: relative;
 }
 
+.top-bgt 
+{ 
+min-height: 420px; 
+background: url("../imgs/top.jpg") no-repeat scroll center center / cover transparent;
+overflow: hidden; z-index: -1; 
+position: relative;
+}
 .big-header-contact 
 { 
   min-height: 420px; 

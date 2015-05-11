@@ -869,7 +869,7 @@ header h1#logo {
     transition: all 0.1989s;
     background-image: url("../imgs/the-foundry-logo-shadow.png");
     height: 420px;
-background-size: 680px auto;
+background-size: 600px auto;
 background-repeat: no-repeat;
 width: 100%;
 }

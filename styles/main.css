@@ -476,12 +476,14 @@ overflow: hidden; z-index: -1;
 position: relative;
 }
 
-.top-bgt 
+.top-bg
 { 
-min-height: 420px; 
-background: url("../imgs/top.jpg") no-repeat scroll center center / cover transparent;
-overflow: hidden; z-index: -1; 
+min-height: 420px;
+background: url("../imgs/top.jpg") no-repeat scroll center center / 100% auto transparent;
+overflow: hidden;
+z-index: 1;
 position: relative;
+margin-top: 25%;
 }
 .big-header-contact 
 { 
@@ -586,7 +588,7 @@ border-bottom: 25px solid #ff5f6f;
 
 .virtual-office 
 { 
-  font-size: .8em; 
+
 }
 
 .gold-bronze 
@@ -615,6 +617,7 @@ border-bottom: 25px solid #ff5f6f;
   margin-left: -25px;
   margin-top: 6px;
   padding-left: 28px; 
+  margin-bottom: .25em;
 }
 .gold-bronze p 
 {  
@@ -678,6 +681,15 @@ transform:rotate(20deg);
 
 .switchit { outline: 1px solid transparent; transform: perspective(100px) rotateY(-5deg) rotateX(-3deg) translateX(-5%) translateY(2%) translateZ(-20px) scale(1.1); }
 
+.lower { margin-bottom: 2em; }
+
+.lower h3 {margin: 0px;
+font-size: 0.89em;
+line-height: 2em;
+color: #000030;
+padding: 0;
+font-size: 2em; }
+
 /* Footer Sticks */   
       #push,
       #footer { height: 60px; }
@@ -691,6 +703,7 @@ transform:rotate(20deg);
     margin: 10px;
     box-shadow: 5px 5px 5px #303030;
 }
+
 
 #instafeed { margin: 0 auto; text-align: center; }
 #instafeed a img { width: 100%; }
@@ -1078,7 +1091,7 @@ margin-left: -49px;
 .nav > li { position: relative; display: inline-block; }
 
 .big-header { display: block; height: 100vh;  min-height: 630px; background: url("/imgs/.jpg")  no-repeat scroll center center / cover #56565A;  overflow: hidden; }
-.about-content { z-index: -1;  padding:1.85em; margin-bottom: 4em; background: #fff; margin-top: 50%; }
+.about-content { z-index: -1;  padding:1.85em; margin-bottom: 4em; background: #fff; margin-top: 120px; }
 .about-logo { display: inline-block; }
 .about-us-text { display: none; }
 

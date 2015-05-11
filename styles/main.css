@@ -936,7 +936,7 @@ width: 900px; }
 #what-we-offer h2 { padding-top: 0px; }
 
 
-@media all and (max-width: 990px) {
+@media all and (max-width: 850px) {
     header h1#logo {
         display: block;
         float: none;

@@ -478,12 +478,12 @@ position: relative;
 
 .top-bg
 { 
-min-height: 420px;
+height: 60%;
 background: url("../imgs/top.jpg") no-repeat scroll center center / 100% auto transparent;
 overflow: hidden;
 z-index: 1;
 position: relative;
-margin-top: 6%;
+margin-top: 60px;
 }
 .big-header-contact 
 { 
@@ -855,7 +855,7 @@ height: 58px;
 }
 header h1#logo {
     display: inline-block;
-    margin-top: 12.5%;
+    margin-top: 120px;
     line-height: 150px;
     float: left;
     font-family: "Oswald", sans-serif;

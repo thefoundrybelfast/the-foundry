@@ -483,7 +483,7 @@ background: url("../imgs/top.jpg") no-repeat scroll center center / 100% auto tr
 overflow: hidden;
 z-index: 1;
 position: relative;
-margin-top: 25%;
+margin-top: 6%;
 }
 .big-header-contact 
 { 
@@ -867,7 +867,7 @@ header h1#logo {
     -ms-transition: all 0.1989s;
     -o-transition: all 0.1989s;
     transition: all 0.1989s;
-    background-image: url("../imgs/the-foundry-logo-home.png");
+    background-image: url("../imgs/the-foundry-logo-shadow.png");
     height: 420px;
 background-size: 820px;
 background-repeat: no-repeat;

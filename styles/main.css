@@ -1,0 +1,1189 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #2F2F2F;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+html, body
+{ 
+        background-color: #56565A;
+        height: 100%;
+        font-family: "futura-pt",sans-serif;
+        color: #000;
+}
+
+
+/* The Foundry Website */
+#wrap { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; }
+h1, h2, h3, h4, h5, h6 {  font-weight: 700; text-align: left; }
+
+a { color: #000000; }
+a:hover { color: #FCD530; }
+.big-header { display: none; }
+
+.about { margin-top: 150px;}
+.about h2 {  line-height: 2em; margin-top: 0; font-size: 58px; text-transform: uppercase; font-weight: 900; text-align: center; }
+.about p { font-size: 2em; text-align: center; }
+.about .sub { text-align: center; margin: 0 auto; left: 32.5%; position: absolute; font-size: 1.32em; }
+.about .btn { margin: 0px auto; font-size: 28px; margin-left: 1em; width: 200px; color: #333333;  text-transform: uppercase;}
+
+/* Nav */
+
+.navbar-header 
+{ 
+  color: #fff; 
+  background: rgba(49, 137, 220, .8); 
+}
+
+.navbar-brand 
+{ 
+height: 100px;
+left: 1em;
+position: absolute;
+top: -10px;
+width: 200px;
+}
+
+.navbar-brand 
+{ 
+  display: block; 
+}
+.navbar-brand img 
+{ 
+  margin-left: 0px; 
+  padding-bottom: 10px; 
+}
+
+.nav 
+{
+width: 100%;
+padding-top: 1em;
+background: none repeat scroll 0% 0% rgba(71, 31, 16, 0.09);
+}
+
+.nav-pills > li 
+{
+  display: block;
+  float: none;
+}
+
+.nav > li > a 
+{
+  color: #fff;
+  float: none;
+  font-size: 1.2em;
+  font-weight: 400;
+  border-radius: 4px;
+  text-shadow: 2px 2px 16px #000000;
+  border-radius: 0;
+  background: #221F1F;
+  text-shadow: none;
+}
+
+.nav > li > a:focus 
+{
+color: #fff;
+}
+
+.nav > li > a:hover 
+{
+  border-radius: 0;
+  background-color: #000;
+  text-shadow: none;
+  color: #fff;
+}
+
+#contact  { margin-top: 5em; }
+
+.navbar-default { background: none; border-color: #2F2F2F; box-shadow: none; border: none; padding-top: 10px; }
+.navbar-inverse { background: none; border-color: #2F2F2F; box-shadow: none; border: none;}
+.navbar-toggle { margin-top: 14px; margin-right: 25px; margin-bottom: 14px;}
+.cal { display: none;  }
+.container-fluid { padding: 0; }
+.navbar-default .navbar-nav > li > a { background-color: #fff; color: #000; font-weight: 900;}
+.navbar-default .navbar-nav > .active > a { background-image: none; background-color: #000; color: #010101; }
+.navbar-default .navbar-nav > li > a:hover { background-image: none; background-color: none repeat scroll 0% 0% rgba(255, 255, 20, 0.8); color: #000;  }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus { background-image: none; background-color: none repeat scroll 0% 0% rgba(255, 255, 20, 0.8); color: #000;  }
+.nav > li > a:hover, .nav > li > a:focus { text-decoration: none; background-color: #000; }
+.nav-pills .gold { border: 1px solid #EDAE49; padding: 5px 5px; }
+.nav-pills .gold:hover { background:  #EDAE49; color: #000; padding: 5px 5px; }
+.dropdown a { background-image: none; text-transform: uppercase; color: #000; } 
+.dropdown-menu { background-clip: border-box; min-width: 140px; margin: 0px; }
+
+
+
+/* Nav Animate */
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform-origin: 10% 10%;
+  -ms-transform-origin: 10% 10%;
+  -webkit-transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+  -ms-transform-origin: 10% 90%;
+  -webkit-transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+
+.left 
+{
+  float: left;
+  max-width: 400px;
+  padding-left: 2em;
+  text-align: center;
+}
+
+.top-about 
+{ 
+  display: none; 
+}
+
+.thumbnail, .img-thumbnail 
+{ 
+  padding: 0; 
+}
+
+.quick-message 
+{
+    max-width: 510px;
+    background-color: #3050FF;
+    margin-top: 100px;
+    padding: 5px 25px;
+    color: #FFF;
+}
+
+.quick-message label {
+
+margin-top: 12px;
+font-size: 1.25em;
+
+}
+
+.quick-message .rsvp-email 
+{ 
+  margin-top: 15px; 
+}
+
+.message
+{ 
+  margin-top: 12px; 
+  width: 100%;
+}
+
+#off 
+{ 
+  display: block; 
+}
+
+#mc_embed_signup 
+{     
+    position: absolute;
+    background: none repeat scroll 0% 0% rgb(86, 86, 90);
+    right: 359px;
+    z-index: 2;
+    top: 125px;
+    padding: 15px 0px 15px 15px;
+    color: #CECECE;
+    background: #221F1F;
+    padding: 26px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px #221F1F;
+}
+
+.social ul li 
+{ 
+  display: inline; 
+  float: left; 
+}
+
+.socialnavbar a { background: transparent !important; color: #FFB347; }
+
+.post { position: block; margin-top: 100px;
+font-size: 2em;
+width: 530px;
+text-align: left;
+float: left; }
+
+.post h1, h2, h3, h4, h5, h6 { margin-bottom: 1em; }
+.posts p { margin-bottom: 2em; }
+.posts { transform:rotate(-10deg);
+-moz-transform:rotate(-10deg); /* Firefox */
+-webkit-transform:rotate(-10deg); /* Safari and Chrome */
+-o-transform:rotate(-10deg); /* Opera */  }
+
+.posts h3 { text-transform: capitalize; }
+
+.posts li { list-style: outside none none;
+font-size: 2.5em;
+line-height: 2em;
+}
+
+
+
+.posts a { color: #FFF;
+background: #221F1F;
+line-height: 1.45em;
+padding-right: 2em;
+padding-left: 1em;
+margin-left: -2em;
+}
+
+.posts a:hover { text-decoration: none; background-color: #3DAE00; }
+
+.facebook 
+{ 
+  box-shadow: 2px 2px 2px #221F1F; 
+  background: url("/imgs/facebook.png") no-repeat scroll 0% 0% / 35px auto transparent; 
+  width: 35px; 
+  height: 35px;
+  margin-top: 22px; 
+  margin-right: 50px;
+  margin-left: 15px;
+}
+.twitter 
+{ 
+  box-shadow: 2px 2px 2px #221F1F; 
+  background: url("/imgs/twitter.png") no-repeat scroll 0% 0% / 35px auto transparent; 
+  width: 35px; 
+  height: 35px;
+  margin-top: 22px;
+  margin-right: 5px; 
+}
+
+.aarow 
+{ 
+width: 310px;
+height: 125px;
+position: absolute;
+background: url("../imgs/aarow.png") no-repeat scroll 0% 0% / 125px auto transparent;
+margin-left: 25%;
+margin-top: -12%;
+display: none;
+}
+
+.lamp 
+{
+  background: url("/imgs/lamp.png") no-repeat scroll 0% 0% / 245px auto transparent;
+  width: 345px;
+  height: 145px;
+  margin-top: 0px;
+  margin-right: 50px;
+  display: block;
+  margin-left: 14px;
+  padding-left: 64px;
+  line-height: 4em;
+  color: #cfcfcf;
+  position: absolute;
+  top: 170px;
+  font-size: 43px;
+  text-shadow: -18px -18px 62px #cfcfcf;
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {  max-height: 100%;  background: none repeat scroll 0% 0% rgba(49, 137, 220, 1);}
+div.col-lg-4:nth-child(1) > h2:nth-child(1) {  display: none; }
+.about-content 
+{ 
+
+  background: linear-gradient(90deg, #00D2FF 10%, #3A7BD5 90%) repeat scroll 0% 0% transparent; 
+margin-top: -26px;
+padding-top: 75px;
+margin-bottom: 0;
+}
+
+.about-content .row 
+{ 
+  margin-left: 5px; 
+  margin-right: 5px; 
+}
+
+.about-content h2 img 
+{ 
+  margin-top: -20px;
+}
+
+.about-logo 
+{ 
+  display: none; 
+}
+
+.about-us-text 
+{ 
+  display: inline-block; 
+}
+.big-photos 
+{ 
+  height: 2px;
+}
+
+#about-the-foundry a 
+{ 
+  color: rgb(255, 255, 255); 
+  background-color: #0F498C; 
+  padding: 0px 25px; 
+}
+#membership .row 
+{ 
+  padding: 0px; 
+}
+
+.big-header-membership 
+{ 
+  min-height: 420px;   
+  background: -webkit-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #00d2ff 10%, #3a7bd5 90%); /* W3C */ 
+  overflow: hidden; 
+  z-index: -1; 
+
+}
+
+.big-header-desk 
+{ 
+min-height: 420px; 
+background: url("../imgs/titanic-view.jpg") no-repeat scroll center center / cover transparent;
+overflow: hidden; z-index: -1; 
+position: relative;
+}
+
+.big-header-contact 
+{ 
+  min-height: 420px; 
+  background: -webkit-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* W3C */
+  overflow: hidden; z-index: -1; position: relative;
+}
+
+.big-header-events 
+{ 
+   min-height: 350px;   
+  background: -webkit-linear-gradient(150deg, #ff6570 60%, #E3E9FF 40%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(150deg, #ff6570 60%, #E3E9FF 40%); /* FF3.6+ */
+  background:     -ms-linear-gradient(150deg, #ff6570 60%, #E3E9FF 40%); /* IE10 */
+  background:      -o-linear-gradient(150deg, #ff6570 60%, #E3E9FF 40%); /* Opera 11.10+ */
+  background:         linear-gradient(150deg, #ff6570 60%, #E3E9FF 40%); /* W3C */  overflow: hidden; z-index: -1; position: relative;
+border-top: 25px solid #FF6F6F;
+border-bottom: 25px solid #ff5f6f;
+}         
+  
+  label 
+{
+  margin-top: 2em; 
+  font-size: 1.5em; 
+}
+  
+  .info-button 
+{ 
+  margin-top: 2em;
+}
+  
+  option span 
+{ 
+  padding-left: 25px; 
+}
+  
+  .big-header-desk input 
+{ 
+  width: 100%; 
+  font-size: 2em;
+ }
+
+.big-header-desk > div:nth-child(1) > form:nth-child(1) 
+{
+  max-width: 420px;
+  margin: 0px auto;
+  background-color: #221F1F;
+  color: #fff;
+  padding: 25px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 2px 2px 2px #00003A;; 
+}
+
+.thumbnail 
+{ 
+  background:transparent;  
+  border-radius: 0;
+}
+
+.thumbnail .caption 
+{ 
+  color: #000000;
+  background: -webkit-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* W3C */
+  padding: 10px 35px 10px 25px;
+  border-radius: 0px;
+}
+
+.virtual 
+{
+  margin-top: -94px;
+  background-color: #56565A;
+  color: rgb(255, 255, 255);
+}
+
+
+.bump { padding-top: 2em;  }
+
+.mentoring 
+{  
+  text-align: center; 
+  width: auto;
+  margin: 0 auto; 
+  margin-top: 0px;
+}
+
+.mentoring p 
+{  
+  text-align: left; 
+  background: linear-gradient(90deg, #FFB347 10%, #FC3 90%) repeat scroll 0% 0% transparent; 
+  padding: 20px 25px
+}
+
+
+.virtual-office 
+{ 
+  font-size: .8em; 
+}
+
+.gold-bronze 
+{ 
+  text-align: center;
+  width: auto;
+  margin: 0 auto; 
+}
+.gold-bronze h2 
+{ 
+  line-height: 1em;
+  margin-top: 0px;
+  font-size: 38px;
+  text-transform: capitalize;
+  font-weight: 900;
+  color: #FFF;
+  width: 100%;
+  text-align: center;
+}
+
+.gold-bronze h3 
+{ 
+  font-size: 2em;
+  text-align: left;
+  color: #0E0E0E;padding: 5px;
+  margin-left: -25px;
+  margin-top: 6px;
+  padding-left: 28px; 
+}
+.gold-bronze p 
+{  
+  text-align: left; 
+}
+
+.gold-bronze 
+{ 
+  font-size: 1.5em; 
+}
+.gold-bronze ul 
+{ 
+
+padding: 10px 5px;
+ }
+
+.gold-bronze ul li { list-style: none;  text-align: left;}
+.gold-bronze img { border-radius: 100%; border: 2px solid #D4B670; }
+.navbar-toggle .icon-bar { display: block; width: 34px; height: 5px; border-radius: 1px; background-color: #FCE500;}
+.news { padding: 4em 1em;  }
+.news li { list-style: none; padding-left: 0; margin-left: 0; font-size: 1em; }
+.credit { padding-top: 23px; }
+
+.address { text-align: left; }
+.address ul { padding: 0; margin: 0; }
+.address li { list-style: none; font-size: 1.2em; margin: 0; padding: 0; }
+.well { background: transparent; }
+
+#contact ul {  margin: 0; padding: 0;}
+#map-container { height: 420px; display: none; }
+
+.navbar-fixed-bottom {  }
+
+/* About */
+.top-cover { text-align: center; margin: 0 auto; margin-top: 0; position: absolute;  width: 100%; }
+
+.about article { text-align: center; }
+
+.options {width: 100%; font-size: 2em;}
+
+.latest-news { 
+display: none;
+}
+
+.intro-offer { position: absolute; color: rgb(255, 255, 255); clear: both; background-color: rgb(14, 14, 14); padding: 5px 10px; margin: 0px 0px 0px 51px; 
+transform:rotate(20deg);
+-moz-transform:rotate(20deg); /* Firefox */
+-webkit-transform:rotate(20deg); /* Safari and Chrome */
+-o-transform:rotate(20deg); /* Opera */ 
+}
+
+.quick-message { margin-top: -280px; }
+
+
+.score-out { text-decoration: line-through;  }
+
+/* Overrides */
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand  { margin-left: 0; }
+#off-mobile { display: none; }
+
+
+.switchit { outline: 1px solid transparent; transform: perspective(100px) rotateY(-5deg) rotateX(-3deg) translateX(-5%) translateY(2%) translateZ(-20px) scale(1.1); }
+
+/* Footer Sticks */   
+      #push,
+      #footer { height: 60px; }
+      #footer { background-color: #f5f5f5; }
+.flexslider {margin-top: 7px; }
+
+#instafeed a {
+    display: inline-block;
+    list-style: outside none none;
+    width: 120px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px #303030;
+}
+
+#instafeed { margin: 0 auto; text-align: center; }
+#instafeed a img { width: 100%; }
+.insta h2 { color: #1F1F1F; text-align: center; line-height: 2em; margin-top: 155px;}
+.insta a { color: #102F2F; }
+/* Mobile Landings */
+
+.ib { padding: 0; margin: 0; }
+.ib li { text-align: center; margin-top: 105px; }
+
+#what-we-offer h2 { padding-top: 100px; }
+#enquire-today .container {  }
+
+.jumbotron  { margin-bottom: 0; }
+.jumbotron p { color: rgba(255,255,255, 0.8); margin-right: 25px; }
+
+#calendarTitle { display: none; }
+
+.calendar-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+    max-width: 1140px;
+    margin-left: 15px;
+}
+
+.calendar-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+header h1#logo { background-size: 150px; margin-top: 27px; text-indent: -9999px; }
+
+#blog-logo { background-repeat: no-repeat;
+width: 100%;
+background-image: url("../imgs/the-foundry-logo-home.png");
+height: 340px;
+background-size: 100px auto;
+transition: all 0.1989s ease 0s;
+font-weight: 400;
+color: #FFF;
+font-size: 130px;
+font-family: "Oswald",sans-serif;
+float: left;
+line-height: 150px;
+margin-top: 4px;
+display: inline-block; }
+
+#blog-link { text-align: right; }
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+background: none repeat scroll 0% 0% #241F1D;
+height: 58px; 
+    -webkit-transition: height 0.1989s;
+    -moz-transition: height 0.1989s;
+    -ms-transition: height 0.1989s;
+    -o-transition: height 0.1989s;
+    transition: height 0.1989s;
+}
+header h1#logo {
+    display: inline-block;
+    margin-top: 12.5%;
+    line-height: 150px;
+    float: left;
+    font-family: "Oswald", sans-serif;
+    font-size: 130px;
+    color: white;
+    font-weight: 400;
+    -webkit-transition: all 0.1989s;
+    -moz-transition: all 0.1989s;
+    -ms-transition: all 0.1989s;
+    -o-transition: all 0.1989s;
+    transition: all 0.1989s;
+    background-image: url("../imgs/the-foundry-logo-home.png");
+    height: 420px;
+background-size: 820px;
+background-repeat: no-repeat;
+width: 100%;
+}
+header nav {
+    display: inline-block;
+    float: right;
+}
+header nav a {
+    -webkit-transition: all 0.1989s;
+    -moz-transition: all 0.1989s;
+    -ms-transition: all 0.1989s;
+    -o-transition: all 0.1989s;
+    transition: all 0.1989s;
+}
+header nav a:hover {
+    color: white;
+}
+header.smaller {
+    height: 58px;
+}
+header.smaller h1#logo {
+line-height: 75px;
+font-size: 30px;
+background-image: url("../imgs/the-foundry-logo-small.png");
+height: 40px;
+background-size: 120px auto;
+background-repeat: no-repeat;
+margin: 13px 0px 5px 7px;
+width: 140px;
+z-index: 9999;
+}
+header.smaller nav a {
+
+
+
+}
+
+#instafeed a { display: inline-block; list-style: outside none none; width: 200px; margin: 30px; box-shadow: 5px 5px 5px #303030; }
+
+.posts li { list-style: outside none none;
+font-size: 2.5em;
+line-height: 2em;
+margin-bottom: 5px;
+}
+
+
+.aarow 
+{ 
+width: 310px;
+height: 125px;
+position: absolute;
+background: url("../imgs/aarow.png") no-repeat scroll 0% 0% / 125px auto transparent;
+margin-left: 25%;
+margin-top: -12%;
+display: inline-block;
+}
+
+#right {float: right; }
+
+.nav 
+{
+width: 100%;
+padding-top: 1em;
+background: none repeat scroll 0% 0% rgba(71, 31, 16, 0.09);
+padding-left: 50px;
+}
+
+div.col-lg-4:nth-child(1) > h2:nth-child(1)  { display: inline-block; }
+
+.jumbotron p { color: rgba(0,0,0, 0.8); margin-right: 0px; }
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {background: #221F1F; }
+
+.navbar-fixed-top { position: fixed;
+right: 0;
+left: 0;
+z-index: 1030;
+width: 900px; }
+
+.nav-pills > li + li { margin: 0; }
+
+.mentoring p {  }
+
+#what-we-offer h2 { padding-top: 0px; }
+
+
+@media all and (max-width: 990px) {
+    header h1#logo {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        line-height: 100px;
+        text-align: center;
+        background-size: 530px;
+        margin-top: 2em;
+    }
+    header nav {
+        display: block;
+        float: none;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    header nav a {
+        line-height: 50px;
+        margin: 0 10px;
+        font-size: .8em;
+    }
+
+
+.nav > li > a { font-size: 1.85em; }
+
+    header.smaller {
+        height: 58px;
+    }
+    header.smaller h1#logo {
+        height: 40px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+    header.smaller nav {
+        height: 35px;
+    }
+    header.smaller nav a {
+        line-height: 35px;
+    }
+}
+
+#off-mobile { display: inline-block; }
+#off { display: none; }
+#membership .row {  }
+.cal { display: block;  }
+
+.blog-posts { font-size: 1.25em; }
+
+.blog-posts h2 { 
+font-size: 48px;
+}
+
+.big-header-membership 
+
+{
+
+}
+
+
+.big-header-desk {
+    height: 100vh;
+}    
+.intro-offer {
+    padding: 5px 32px;
+    margin-left: 35px;
+    margin-right: -25px;
+ }
+
+#map-container { display: block; }
+
+.quick-message { 
+max-width: 510px;
+background-color: #3050FF;
+margin-top: -260px;
+padding: 5px 25px;
+color: #FFF;
+}
+
+div.col-sm-4:nth-child(3) > div:nth-child(1) > div:nth-child(1) > p:nth-child(4) { padding: 15px 15px;  background-color: #fff; }
+
+.quick-message { margin-top: 25px; }
+
+.lower {
+    background: linear-gradient(90deg, #FFB347 10%, #FC3 90%) repeat scroll 0% 0% transparent;
+    color: #000000;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.lower h3 {     margin: 0;
+    font-size: .89em;
+line-height: 2.75em;
+color: #000030;
+ }
+
+.virtual {
+margin-top: -82px;
+
+  background: -webkit-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* W3C */
+        
+        
+        
+            color: #000;
+margin-left: -49px;
+}
+
+.virtual h3 {     margin: 0;
+    font-size: .89em;
+    padding: 25px 5px;
+    color: #000;
+ }
+
+.address { text-align: left; padding-left: 100px; }
+
+
+.top-left {  }
+.top-right { text-align: right;  }
+.top-left a {  content: #fff;}
+
+.logo-left { float: left; background-color: none repeat scroll 0% 0% rgba(10, 140, 60, 0.7); width: 189px; height: 57px; margin-left: 2px; }
+.logo-left img { height: 290px; width: auto; margin-top: 350px; }
+.logo-left > a:nth-child(1) { background-color: transparent; background: transparent; }
+
+.nav-pills > li { width: auto; }
+
+.navbar-brand {  display: none; height: 100px; left: 1em; position: absolute; top: -10px; width: 200px;}
+.navbar-brand img { margin-left: 0px; }
+
+.nav > li { position: relative; display: inline-block; }
+
+.big-header { display: block; height: 100vh;  min-height: 630px; background: url("/imgs/.jpg")  no-repeat scroll center center / cover #56565A;  overflow: hidden; }
+.about-content { z-index: -1;  padding:1.85em; margin-bottom: 4em; background: #fff; margin-top: 50%; }
+.about-logo { display: inline-block; }
+.about-us-text { display: none; }
+
+.big-photos { height: 100vh;  min-height: 420px; background: url("/imgs/mid-cover.jpg") no-repeat scroll center center / cover transparent;  overflow: hidden; z-index: -1; position: relative;}
+
+.top-about { height: 100vh;  min-height: 420px;   background: -webkit-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FF4E50 10%, #F9D423 90%); /* W3C */  overflow: hidden; z-index: -1; position: relative;}
+
+.top-about p { font-size: 2.85em; text-align: center; vertical-align: middle; padding: 1em; color: #ffffff; margin-top: 10%; max-width: 85%; margin: 0 auto; }
+
+.top-about h2 { text-align: center; color: #fff; font-size: 4em; padding-top: 2em; }
+.jumbotron { background-color: #FFFFFF; color: #000; max-width: 1140px;}
+.jumbotron h2 strong {color: #000; }
+
+.that-button { position: absolute;
+right: 354px;
+bottom: 119px;
+width: 260px;
+font-size: 25px;
+text-align: center;
+padding: 0px;
+height: 60px;
+line-height: 56px;
+background-color: #00F; }
+
+.that-button:hover 
+{
+  background-color: green; text-decoration: none; color: #fff;
+}
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #2F2F2F !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+

@@ -1,0 +1,32 @@
+<div id="enquire-today" class="big-header-desk">
+<div class="container">
+<form class="wow fadeInUp"  action="//formspree.io/ann@thefoundrybelfast.com" method="POST"> 
+
+<h2>Register your interest.</h2> 
+<label for="name">Enter your name</label>
+<input class="interests" type="text" placeholder="Name" name="name"> 
+
+<label for="Interest">Choose an membership option.</label>
+  <select class="options" name="Interest">
+    <option value="Full Time">Full Time </option>
+        <option value="Part Time">Part Time</option>
+    <option value="Day Rate">Day Rate</option>
+    <option value="Off Peak">Off Peak</option>
+    <option value="Office Rental">Furnished Office Rental</option>
+  </select>
+
+    <label for="From">Enter your email address</label>
+    <input class="info rsvp-email" type="email" placeholder="name@email.com" name="From">
+    <input type="hidden" name="_next" value="/thanks.html" />
+    <input class="info info-button" type="submit" value="Send">
+</form> 
+
+  <ul class="posts">
+  <h3>Read our latest news post</h3>
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}"><span>{{ post.date | date_to_string }}</span> &raquo; {{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+</div>
+</div>

@@ -1,0 +1,51 @@
+<section class="about-content container jumbotron">
+<span id="about-the-foundry" style="padding-top:50px;"> </span>
+
+<div class="row">
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+<h2><strong>About <span class="about-us-text">Us</span> <img class="about-logo" alt="The Foundry" height="55px" src="imgs/logo-large-lamp.png"></strong></h2> 
+<p>The Foundry is much more than just a desk and internet access, it’s an energising environment that fosters collaboration in a shared and supportive space.  We offer the flexibility of a range of Coworking options designed to facilitate part time and full time entrepreneurs</p> 
+
+<p>The Foundry is a space that is both vibrant and creative. It is an environment that provides engagement, synergy and increased productivity amongst a community of service providers, early stage start-ups and independent professionals who often find themselves working in isolation.</p>
+
+<p>The Foundry is a Coworking space established by <a href="http://www.eastbelfast.org/east-belfast-enterprise.html">East Belfast Enterprise</a>  </p>
+</div>
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+
+  {% if page.carousel %}
+  <div class="flexslider">
+    <ul class="slides">
+      {% for slides in page.carousel %}
+      <li>
+        <img src="{{ slides.image }}">
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+</div>
+
+<div id="what-we-offer" class="col-lg-4 col-md-12 col-sm-12">
+
+<h2>What we offer</h2>
+
+<p>The Foundry has been built with our clients in mind.</p> 
+
+<p>We’ve specifically designed a stylish yet functional environment that manages to blend privacy with collaboration, offering space for 15 hot desks, two bespoke offices for small organisations; making this a truly incredible space for start ups, entrepreneurs and small businesses.</p>
+
+<h3>Bespoke Studio</h3>
+<p> The Foundry also offers up a bespoke studio space for creatives who require that little bit extra, featuring a unique desk layout tailored specifically for artists, designers and those who need that little bit more space for design and paper based work.</p>
+</div>
+
+</div>
+
+<div class="row">
+
+<div id="instafeed"></div>
+
+</div>
+
+</section>

@@ -944,7 +944,7 @@ width: 900px; }
         line-height: 100px;
         text-align: center;
         background-size: 530px;
-        margin-top: 2em;
+       
     }
     header nav {
         display: block;
@@ -960,7 +960,7 @@ width: 900px; }
     }
 
 
-.nav > li > a { font-size: 1.85em; }
+.nav > li > a {  }
 
     header.smaller {
         height: 58px;

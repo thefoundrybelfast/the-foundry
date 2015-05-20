@@ -44,6 +44,7 @@
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
     <!-- build:css(app) /styles/main.css -->
+    
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/bootstrap.css">
     <link rel="stylesheet" href="styles/bootstrap-theme.css">
@@ -51,7 +52,6 @@
     <link rel="stylesheet" href="styles/flex.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
     <!-- endbuild -->
 
     <!-- build:js(app) /js/head-scripts.js -->
@@ -277,6 +277,96 @@ services, workshops and seminars, please enquire for prices.</p>
 
     <div id="enquire-today" class="big-header-desk">
 <div class="container">
+<h2>Interested in Coworking? We'll send you more info.</h2> 
+
+
+<form action="contact-form/process.php" enctype="multipart/form-data" method="POST" name="contact" id="contact" class="ucf">
+      <div class="message"></div>
+      <fieldset>
+        <legend>Please provide your details below</legend>
+
+        <p class="field-wrapper">
+          <label for="name" accesskey="U">
+            <span class="required">Your Name</span>
+            <input class="field" type="text" name="name" id="name" size="30" required>
+          </label>
+        </p>
+
+        <p class="field-wrapper">
+          <label for="email" accesskey="E">
+            <span class="required">Email</span>
+            <input class="field" type="email" name="email" id="email" size="30" placeholder="you@youremail.com" required>
+          </label>
+        </p>
+
+        <p class="field-wrapper">
+          <label for="phone" accesskey="P">
+            <span class="required">Phone</span>
+            <input class="field" type="tel" name="phone" id="phone" size="30" required>
+          </label>
+        </p>
+
+        <p class="field-wrapper">
+          <label for="subject" accesskey="S">
+            <span class="required">Subject</span>
+            <select class="field" type="text" name="subject" id="subject" required>
+              <option value="support">Support</option>
+              <option value="sales">Sales</option>
+              <option value="bugs">Report a bug</option>
+            </select>
+          </label>
+        </p>
+
+        <p class="field-wrapper">
+          <label for="message" accesskey="M">
+            <span class="required">Message</span>
+            <textarea class="field" name="message" id="message" cols="40" rows="3" required></textarea>
+          </label>
+        </p>
+
+        <p class="field-wrapper">
+          <label for="attachment" accesskey="F">
+            <span class="required">Upload a file</span>
+            <input class="field" type="file" name="attachment[]" id="attachment" multiple>
+          </label>
+        </p>
+
+        <!-- Google reCAPTCHA -->
+        <!-- change 6LfmHAcTAAAAAHFqcCBu7Ql-cQNo4JGtPvY0DdbJ with your google recaptcha key -->
+        <!-- https://developers.google.com/recaptcha/docs/start -->
+        <div class="g-recaptcha" data-sitekey="6LfmHAcTAAAAAHFqcCBu7Ql-cQNo4JGtPvY0DdbJ"></div>
+        <noscript>
+          <div style="width: 302px; height: 352px;margin-bottom:20px;margin-left:100px;">
+            <div style="width: 302px; height: 352px; position: relative;">
+              <div style="width: 302px; height: 352px; position: absolute;">
+                <!-- change 6LfmHAcTAAAAAHFqcCBu7Ql-cQNo4JGtPvY0DdbJ with your google recaptcha key -->
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LfmHAcTAAAAAHFqcCBu7Ql-cQNo4JGtPvY0DdbJ" frameborder="0" scrolling="no" style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+              </div>
+              <div style="width: 250px; height: 80px; position: absolute; border-style: none; bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 80px; border: 1px solid #c1c1c1; margin: 0px; padding: 0px; resize: none;" value=""></textarea>
+              </div>
+            </div>
+          </div>
+        </noscript>
+
+        <!-- honeypot -->
+        <p class="field-wrapper hey-honey">
+          <label for="honey">
+            Please leave this field empty - we're using it to stop robots submitting the form<br>
+            <input class="field" type="text" name="honey" id="honey">
+          </label>
+        </p>
+
+        <button type="submit" class="button primary">Send details</button>
+
+      </fieldset>
+    </form>
+
+
+
+<!--
+
 <form class="wow fadeInUp"  action="////formspree.io/ann@thefoundrybelfast.com" method="POST"> 
 
 <h2>Interested in Coworking? We'll send you more info.</h2> 
@@ -297,7 +387,7 @@ services, workshops and seminars, please enquire for prices.</p>
     <input type="hidden" name="_next" value="/thanks.html" />
     <input class="info info-button" type="submit" value="Send">
 </form> 
-
+-->
   <ul class="posts">
   <h3>Read our latest news post</h3>
     

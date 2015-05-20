@@ -943,7 +943,7 @@ display: inline-block;
 width: 100%;
 padding-top: 1em;
 background: none repeat scroll 0% 0% rgba(71, 31, 16, 0.09);
-padding-left: 30px;
+padding-left: 180px;
 }
 
 div.col-lg-4:nth-child(1) > h2:nth-child(1)  { display: inline-block; }
@@ -956,7 +956,7 @@ div.col-lg-4:nth-child(1) > h2:nth-child(1)  { display: inline-block; }
 right: 0;
 left: 0;
 z-index: 1030;
-width: 900px; }
+ }
 
 .nav-pills > li + li { margin: 0; }
 

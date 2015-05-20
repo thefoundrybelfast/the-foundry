@@ -277,117 +277,31 @@ services, workshops and seminars, please enquire for prices.</p>
 
     <div id="enquire-today" class="big-header-desk">
 <div class="container">
-<h2>Interested in Coworking? We'll send you more info.</h2> 
-
-
-<form action="contact-form/process.php" enctype="multipart/form-data" method="POST" name="contact" id="contact" class="ucf">
-      <div class="message"></div>
-      <fieldset>
-        <legend>Please provide your details below</legend>
-
-        <p class="field-wrapper">
-          <label for="name" accesskey="U">
-            <span class="required">Your Name</span>
-            <input class="field" type="text" name="name" id="name" size="30" required>
-          </label>
-        </p>
-
-        <p class="field-wrapper">
-          <label for="email" accesskey="E">
-            <span class="required">Email</span>
-            <input class="field" type="email" name="email" id="email" size="30" placeholder="you@youremail.com" required>
-          </label>
-        </p>
-
-        <p class="field-wrapper">
-          <label for="phone" accesskey="P">
-            <span class="required">Phone</span>
-            <input class="field" type="tel" name="phone" id="phone" size="30" required>
-          </label>
-        </p>
-
-        <p class="field-wrapper">
-          <label for="subject" accesskey="S">
-            <span class="required">Subject</span>
-            <select class="field" type="text" name="subject" id="subject" required>
-              <option value="support">Support</option>
-              <option value="sales">Sales</option>
-              <option value="bugs">Report a bug</option>
-            </select>
-          </label>
-        </p>
-
-        <p class="field-wrapper">
-          <label for="message" accesskey="M">
-            <span class="required">Message</span>
-            <textarea class="field" name="message" id="message" cols="40" rows="3" required></textarea>
-          </label>
-        </p>
-
-        <p class="field-wrapper">
-          <label for="attachment" accesskey="F">
-            <span class="required">Upload a file</span>
-            <input class="field" type="file" name="attachment[]" id="attachment" multiple>
-          </label>
-        </p>
-
-        <!-- Google reCAPTCHA -->
-        <!-- change 6LfmHAcTAAAAAHFqcCBu7Ql-cQNo4JGtPvY0DdbJ with your google recaptcha key -->
-        <!-- https://developers.google.com/recaptcha/docs/start -->
-        <div class="g-recaptcha" data-sitekey="6LfmHAcTAAAAAHFqcCBu7Ql-cQNo4JGtPvY0DdbJ"></div>
-        <noscript>
-          <div style="width: 302px; height: 352px;margin-bottom:20px;margin-left:100px;">
-            <div style="width: 302px; height: 352px; position: relative;">
-              <div style="width: 302px; height: 352px; position: absolute;">
-                <!-- change 6LfmHAcTAAAAAHFqcCBu7Ql-cQNo4JGtPvY0DdbJ with your google recaptcha key -->
-                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LfmHAcTAAAAAHFqcCBu7Ql-cQNo4JGtPvY0DdbJ" frameborder="0" scrolling="no" style="width: 302px; height:352px; border-style: none;">
-                </iframe>
-              </div>
-              <div style="width: 250px; height: 80px; position: absolute; border-style: none; bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;">
-                <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 80px; border: 1px solid #c1c1c1; margin: 0px; padding: 0px; resize: none;" value=""></textarea>
-              </div>
-            </div>
-          </div>
-        </noscript>
-
-        <!-- honeypot -->
-        <p class="field-wrapper hey-honey">
-          <label for="honey">
-            Please leave this field empty - we're using it to stop robots submitting the form<br>
-            <input class="field" type="text" name="honey" id="honey">
-          </label>
-        </p>
-
-        <button type="submit" class="button primary">Send details</button>
-
-      </fieldset>
-    </form>
 
 
 
-<!--
+<div class="wow fadeInUp middle-form"  id="wufoo-z1xi5edz0jv90mz">
+Fill out my <a href="https://thefoundrybelfast.wufoo.com/forms/z1xi5edz0jv90mz">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div>
+<script type="text/javascript">var z1xi5edz0jv90mz;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'thefoundrybelfast',
+'formHash':'z1xi5edz0jv90mz',
+'autoResize':true,
+'height':'401',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z1xi5edz0jv90mz = new WufooForm();z1xi5edz0jv90mz.initialize(options);z1xi5edz0jv90mz.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
 
-<form class="wow fadeInUp"  action="////formspree.io/ann@thefoundrybelfast.com" method="POST"> 
 
-<h2>Interested in Coworking? We'll send you more info.</h2> 
-<label for="name">Enter your name</label>
-<input class="interests" type="text" placeholder="Name" name="name"> 
-
-<label for="Interest">Choose a membership option.</label>
-  <select class="options" name="Interest">
-    <option value="Full Time">Full Time </option>
-        <option value="Part Time">Part Time</option>
-    <option value="Day Rate">Day Rate</option>
-    <option value="Off Peak">Off Peak</option>
-    <option value="Office Rental">Furnished Office Rental</option>
-  </select>
-
-    <label for="From">Enter your email address</label>
-    <input class="info rsvp-email" type="email" placeholder="name@email.com" name="From">
-    <input type="hidden" name="_next" value="/thanks.html" />
-    <input class="info info-button" type="submit" value="Send">
-</form> 
--->
   <ul class="posts">
   <h3>Read our latest news post</h3>
     
@@ -448,7 +362,31 @@ services, workshops and seminars, please enquire for prices.</p>
 <div id="contact" class="col-lg-6 col-6 col-sm-12">
 <div id="map-container"> </div>
 </div>
-<div id="contact" class="col-lg-6 col-6 col-sm-12 wow fadeInUp">
+
+<div id="contact" class="col-lg-6 col-6 col-sm-12 wow fadeInUp ">
+<div id="wufoo-m1y8212d09ozci1" class="quick-message">
+Fill out my <a href="https://thefoundrybelfast.wufoo.com/forms/m1y8212d09ozci1">online form</a>.
+</div>
+
+<div id="wuf-adv"  style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">The easy to use <a href="http://www.wufoo.com/form-builder/">Wufoo form builder</a> helps you make forms easy, fast, and fun.</div>
+<script type="text/javascript">var m1y8212d09ozci1;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'thefoundrybelfast',
+'formHash':'m1y8212d09ozci1',
+'autoResize':true,
+'height':'515',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { m1y8212d09ozci1 = new WufooForm();m1y8212d09ozci1.initialize(options);m1y8212d09ozci1.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+<!--
 <form class="quick-message" action="////formspree.io/ann@thefoundrybelfast.com" method="POST"> 
 <h2>Send The Foundry a quick </h2> 
 <input type="hidden" name="_subject" value="A new website message" />
@@ -461,10 +399,13 @@ services, workshops and seminars, please enquire for prices.</p>
 <input type="text" name="_gotcha" style="display:none" />
 <input class="info info-button" type="submit" value="Send">
 </form> 
+
+-->
+
 </div>
 </div>
 <div class="container insta">
-<h2> Follow us on <a href="http://instagram.com/the_foundry_belfast"><i class="fa fa-instagram"></i> Instagram </a> | Like us on <a href="facebook.com/foundrybelfast"><i class="fa fa-facebook-official"></i> Facebook </a> </h2>
+<h2> Follow us on <a href="http://instagram.com/the_foundry_belfast"><i class="fa fa-instagram"></i> Instagram </a> | Like us on <a href="http://facebook.com/foundrybelfast"><i class="fa fa-facebook-official"></i> Facebook </a> </h2>
 
 <ul class="ib" >
 <li><a href="http://invisiblebuilding.com">Website by Invisible Building</a></li>

@@ -1,5 +1,7 @@
 name: The Foundry - Coworking Belfast
+description: The Foundry Belfast Coworking space Northern Ireland
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 baseurl: /the-foundry
+url: http://thefoundrybelfast.com
 exclude: ['node_modules', 'gulpfile.js', 'package.json', 'src', 'Gemfile', 'Gemfile.lock']

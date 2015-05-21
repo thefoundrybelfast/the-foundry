@@ -1,37 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
     
     <url>
-      <loc>http://thefoundrybelfast.com/blog/2015/05/11/the-foundry-belfast-coworking.html</loc>
-      
-        <lastmod>2015-05-11T00:09:26Z</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
+        <loc>http://thefoundrybelfast.com/blog/2015/05/11/the-foundry-belfast-coworking.html</loc>
     </url>
     
-  
-  
+
+    
+    
     
     <url>
-      <loc>http://thefoundrybelfast.com/</loc>
-      
-        <lastmod>2015-05-22T00:37:27+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
+        <loc>http://thefoundrybelfast.com/</loc>
     </url>
     
-  
     
-  
+    
+    
+    
 </urlset>

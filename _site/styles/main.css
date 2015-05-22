@@ -335,11 +335,19 @@ float: left; }
 
 .post h1, h2, h3, h4, h5, h6 { margin-bottom: 1em; }
 .posts p { margin-bottom: 2em; }
-.posts { transform:rotate(-10deg);
+.posts { margin-top: 100px;
+font-size: 2em;
+max-width: 740px;
+text-align: left;
+float: left;
+color: #EFEFEF; transform:rotate(-10deg);
 -moz-transform:rotate(-10deg); /* Firefox */
 -webkit-transform:rotate(-10deg); /* Safari and Chrome */
 -o-transform:rotate(-10deg); /* Opera */  }
-
+.posts img { display: inline-block;
+margin: 25px;
+border: 12px solid #fff;
+box-shadow: 2px 4px 4px #000; color: #000; background: #fff; }
 .posts h3 { text-transform: capitalize; }
 
 .posts li { list-style: outside none none;
